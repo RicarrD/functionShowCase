@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+
+</body>
+<script> 
+  function help() {
+    alert("You need to change the coonsole.log before using one functioon")
+  }
+
+  function add7() {
+    let number = parseInt(prompt("What is the number do you wanna add 7?"));
+    return number + 7;
+  }
+
+  function multiply() {
+    let firstNumber = parseInt(prompt("Write the first number that you wanna multiply"));
+    let secondNumber = parseInt(prompt("Write the second number"))
+    return firstNumber * secondNumber
+  }
+  
+  function capitalizeAnyWord() {
+    let words = prompt("Write what do you wanna captialize");
+    let captializeStrings = (str) =>
+    str[0].toUpperCase() + 
+    str.slice(1).toLowerCase()
+    let separatedWords = words.split(' ').map(captializeStrings).join(' ')
+    return separatedWords
+  }
+  function captialize() {
+    let words = prompt("Write what do you wanna captialize");
+    let capitalizeWord = words[0].toUpperCase() + words.slice(1).toLowerCase();
+    return capitalizeWord
+  }
+
+  function lastLetter() {
+    let words = "abcd"
+    let lastWord = words.slice(-1)
+    return lastWord
+  }
+
+  console.log(help())
+</script>
+</html> 
