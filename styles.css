@@ -1,0 +1,48 @@
+/* Global styling for the body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4; /* Background color for the entire page */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+}
+
+/* Stylin' for the main container */
+.container {
+    background-color: #fff; /* Background color for the main container */
+    border-radius: 10px; /* Roundin' them corners a bit */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Just a little shadow for liftin' */
+}
+
+/* Headin' style */
+h1 {
+    color: #333; /* Text color for the headin' */
+}
+
+/* Button container vibes */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style for function buttons */
+.function-button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green background color for the buttons */
+    color: #fff; /* Text color for the buttons */
+    border: none;
+    border-radius: 5px; /* Rounded corners for the buttons */
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for function buttons */
+.function-button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
