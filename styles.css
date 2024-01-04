@@ -29,6 +29,25 @@ h1 {
     align-items: center;
 }
 
+/* Icon for toggleMode */
+#toggle-icon {
+    width: 32px;
+    height: 32px;
+    background-color: #4CAF50; /* Green background color for the icon */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.light #toggle-icon {
+    background-color: #fff; /* White background color for the icon in light mode */
+}
+
+#toggle-icon:hover {
+    background-color: #45a049; /* Darker green color on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+
 /* Style for function buttons */
 .function-button {
     padding: 10px;
@@ -40,9 +59,24 @@ h1 {
     border-radius: 5px; /* Rounded corners for the buttons */
     font-size: 16px;
     transition: background-color 0.3s; /* Smooth transition for hover effect */
+    position: relative;
+    overflow: hidden;
 }
 
 /* Hover effect for function buttons */
 .function-button:hover {
     background-color: #45a049; /* Darker green color on hover */
+}
+
+/* Light mode styles */
+.light #container {
+    background-color: #000; /* Light mode background color for the main container */
+}
+
+.light #button-container {
+    color: #000; /* Light mode text color for the buttons */
+}
+
+.light #heading {
+    color: #333; /* Light mode text color for the heading */
 }

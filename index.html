@@ -7,8 +7,8 @@
         <!-- Linking the external CSS file -->
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
@@ -16,13 +16,15 @@
       <h1>Interactive Functions</h1>
 
       <div class="button-container">
-            <!-- Buttons to trigger JavaScript functions -->
-          <button class="function-button" onclick="add7()">Add 7 to a Number</button>
-          <button class="function-button" onclick="multiply()">Multiply Two Numbers</button>
-          <button class="function-button" onclick="capitalizeAnyWord()">Capitalize Each Word</button>
-          <button class="function-button" onclick="capitalize()">Capitalize First Word</button>
-          <button class="function-button" onclick="lastLetter()">Last Letter of a Phrase</button>
-      </div>
+        <!-- Buttons to trigger JavaScript functions -->
+        <div id="toggle-icon" onclick="toggleMode()"></div>
+        <button class="function-button" onclick="help()">Help</button>
+        <button class="function-button" onclick="add7()">Add 7 to a Number</button>
+        <button class="function-button" onclick="multiply()">Multiply Two Numbers</button>
+        <button class="function-button" onclick="capitalizeAnyWord()">Capitalize Each Word</button>
+        <button class="function-button" onclick="capitalize()">Capitalize First Word</button>
+        <button class="function-button" onclick="lastLetter()">Last Letter of a Phrase</button>
+    </div>
   </div>
       <!-- Linking external JavaScript file -->
   <script 
