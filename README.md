@@ -36,6 +36,10 @@ To run this project locally, follow these steps:
 
 Click on the buttons provided on the webpage to trigger each function and see the results. Feel free to explore and modify the code to suit your needs.
 
+## Live Link
+
+https://ricarrd.github.io/functionShowCase/
+
 ## Contributing
 
 Contributions are welcome! If you have suggestions, enhancements, or bug fixes, please create an issue or submit a pull request.
@@ -49,6 +53,9 @@ This project is licensed under the MIT License.
 Have questions, jokes, or just want to say hi? Reach out and let's make this project even more awesome together!
 
 Email: [Ricarrdev@gmail.com](mailto:ricarrdev@gmail.com)
+
 GitHub: [RicarrD](https://github.com/RicarrD)
+
 LinkedIn: [RicarrD](https://www.linkedin.com/in/ricarrd/)
+
 =======
